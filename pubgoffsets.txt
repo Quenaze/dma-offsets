@@ -18,7 +18,7 @@ namespace Offset {
 	constexpr uint64_t ObjID = 0xC;
 	constexpr uint64_t DecryptNameIndexRor = 0x1;
 	constexpr uint64_t DecryptNameIndexXorKey1 = 0x1EDBF73C;
-	constexpr uint64_t DecryptNameIndexXorKey2 = 0x1EDBF73Cu;
+	constexpr uint64_t DecryptNameIndexXorKey2 = 0x10000;
 	constexpr uint64_t DecryptNameIndexXorKey3 = 0xFCA25AFA;
 	constexpr uint64_t DecryptNameIndexRval = 0xD;
 	constexpr uint64_t DecryptNameIndexSval = 0x1F;
@@ -209,6 +209,7 @@ namespace Offset {
 	constexpr uint64_t rigid_dynamics = 0x3B98;
 	constexpr uint64_t Unreal_Engine = 0x10B823F0;
 }
+
 
 
 
