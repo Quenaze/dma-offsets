@@ -1,21 +1,21 @@
 namespace Offset {
-	constexpr uint64_t XenuineDecrypt = 0xF33F628;
-	constexpr uint64_t UWorld = 0x10B860E8;
-	constexpr uint64_t GNames = 0x10DCDC00;
+	constexpr uint64_t XenuineDecrypt = 0xf4a6228;
+	constexpr uint64_t UWorld = 0x10ba8718;
+	constexpr uint64_t GNames = 0x10df79c0;
 	constexpr uint64_t GNamesPtr = 0x10;
-	constexpr uint64_t ChunkSize = 0x3E20;
+	constexpr uint64_t ChunkSize = 0x403c;
 	constexpr uint64_t GObjects = 0x10B47420;
 	constexpr uint64_t CurrentLevel = 0x968;
-	constexpr uint64_t Actors = 0xA0;
+	constexpr uint64_t Actors = 0x270;
 	constexpr uint64_t ActorsForGC = 0x1F0;
 	constexpr uint64_t GameInstance = 0x390;
 	constexpr uint64_t GameState = 0x470;
-	constexpr uint64_t LocalPlayer = 0xB0;
+	constexpr uint64_t LocalPlayer = 0x10d30ba0;
 	constexpr uint64_t PlayerController = 0x30;
 	constexpr uint64_t AcknowledgedPawn = 0x4C0;
 	constexpr uint64_t PlayerCameraManager = 0x4E8;
 
-	constexpr uint64_t ObjID = 0x1C;
+	constexpr uint64_t ObjID = 0xC;
 	constexpr uint64_t DecryptNameIndexRor = 0x1;
 	constexpr uint64_t DecryptNameIndexXorKey1 = 0x5BBF163A;
 	constexpr uint64_t DecryptNameIndexXorKey2 = 0x980A92;
@@ -209,3 +209,4 @@ namespace Offset {
 	constexpr uint64_t rigid_dynamics = 0x3B98;
 	constexpr uint64_t Unreal_Engine = 0x10B823F0;
 }
+
