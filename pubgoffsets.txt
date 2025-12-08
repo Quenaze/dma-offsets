@@ -1,5 +1,7 @@
 // Process ID: 14553
 // Module Address: 7FF6E67A0000
+// https://github.com/DreamyDuck/PUBG-offset/
+// Time: 2025-12-03 4PM
 // --------------------------------------------- 
 // ---------------------------------------------
 namespace Offset
@@ -11,8 +13,8 @@ constexpr uint64_t GNamesPtr = 0x0;
 constexpr uint64_t ChunkSize = 0x403C;
 constexpr uint64_t GObjects = 0x10B69890;
 constexpr uint64_t CurrentLevel = 0x2B8;
-constexpr uint64_t Actors = 0x270;
-constexpr uint64_t ActorsForGC = 0xD0;
+constexpr uint64_t Actors = 0xD0;
+constexpr uint64_t ActorsForGC = 0x2B0;
 constexpr uint64_t GameInstance = 0x3C0;
 constexpr uint64_t GameState = 0x3B8;
 constexpr uint64_t LocalPlayer = 0xE0;
@@ -49,7 +51,7 @@ constexpr uint64_t WorldToMap = 0xAA8;
 constexpr uint64_t LayoutData = 0x40;
 constexpr uint64_t Offsets = 0x0;
 constexpr uint64_t Alignment = 0x20;
-constexpr uint64_t Visibility = 0xA1;
+constexpr uint64_t Visibility = 0xA9;
 constexpr uint64_t SelectMinimapSizeIndex = 0x5D0;
 constexpr uint64_t Slot = 0x38;
 constexpr uint64_t WidgetStateMap = 0x550;
@@ -96,11 +98,11 @@ constexpr uint64_t PlayerStatistics = 0x4DC;
 constexpr uint64_t DamageDealtOnEnemy = 0x868;
 constexpr uint64_t SpectatedCount = 0x15B4;
 
-constexpr uint64_t PartnerLevel = 0x96E;
-constexpr uint64_t SurvivalTier = 0xC88;
-constexpr uint64_t SurvivalLevel = 0xC8C;
+constexpr uint64_t PartnerLevel = 0x57E;
+constexpr uint64_t SurvivalTier = 0xCC8;
+constexpr uint64_t SurvivalLevel = 0xCCC;
 
-constexpr uint64_t CharacterClanInfo = 0x8D8;
+constexpr uint64_t CharacterClanInfo = 0x7F0;
 
 constexpr uint64_t EquippedWeapons = 0x208;
 constexpr uint64_t WeaponProcessor = 0x980;
@@ -213,6 +215,3 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10BA4A20;
 }
-
-
-
