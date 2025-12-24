@@ -57,13 +57,13 @@ constexpr uint64_t BlueZoneRadius = 0x128;
 constexpr uint64_t BlueZonePosition = 0x11C;
 constexpr uint64_t NumAliveTeams = 0x4F0;
 
-constexpr uint64_t HeaFlag = 0x210;
-constexpr uint64_t Health1 = 0x970;
-constexpr uint64_t Health2 = 0x980;
-constexpr uint64_t Health3 = 0x9A4;
-constexpr uint64_t Health4 = 0x990;
-constexpr uint64_t Health5 = 0x9A5;
-constexpr uint64_t Health6 = 0x9A0;
+constexpr uint64_t HeaFlag = 0x188;
+constexpr uint64_t Health1 = 0x9a8;
+constexpr uint64_t Health2 = 0xa40;
+constexpr uint64_t Health3 = 0x994;
+constexpr uint64_t Health4 = 0x980;
+constexpr uint64_t Health5 = 0x995;
+constexpr uint64_t Health6 = 0x990;
 constexpr uint64_t Health_keys0 = 0xCEC7A598;
 constexpr uint64_t Health_keys1 = 0x9B63B237;
 constexpr uint64_t Health_keys2 = 0xCA5153A4;
@@ -224,4 +224,5 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
