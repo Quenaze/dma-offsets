@@ -15,7 +15,7 @@ constexpr uint64_t GameInstance = 0x200;
 constexpr uint64_t GameState = 0x9E0;
 constexpr uint64_t LocalPlayer = 0x40;
 constexpr uint64_t PlayerController = 0x38;
-constexpr uint64_t AcknowledgedPawn = 0x4c0;
+constexpr uint64_t AcknowledgedPawn = 0x4A8;
 constexpr uint64_t PlayerCameraManager = 0x4e8;
  
 constexpr uint64_t ObjID = 0x28;
@@ -32,8 +32,8 @@ constexpr uint64_t CameraCacheLocation = 0xa2c;
 constexpr uint64_t CameraCacheRotation = 0x480;
 constexpr uint64_t CameraCacheFOV = 0x1010;
  
-constexpr uint64_t LastTeamNum = 0x1938;
-constexpr uint64_t TeamNumber = 0x794;
+constexpr uint64_t LastTeamNum = 0x0C40;
+constexpr uint64_t TeamNumber = 0x1938;
  
 constexpr uint64_t MyHUD = 0x4D0;
 constexpr uint64_t BlockInputWidgetList = 0x5B0;
@@ -92,7 +92,7 @@ constexpr uint64_t SquadMemberIndex = 0x994;
 constexpr uint64_t PlayerState = 0x428;
 constexpr uint64_t PlayerStatistics = 0x998;
 constexpr uint64_t DamageDealtOnEnemy = 0x798;
-constexpr uint64_t SpectatedCount = 0x1420;
+constexpr uint64_t SpectatedCount = 0x3370;
  
 constexpr uint64_t PartnerLevel = 0x4B6;
 constexpr uint64_t SurvivalTier = 0xCB8;
@@ -126,7 +126,7 @@ constexpr uint64_t LastUpdateVelocity = 0x3D0;
 constexpr uint64_t Mesh = 0x5f8;
  
 constexpr uint64_t RootComponent = 0x1e8;
-constexpr uint64_t StaticMesh = 0xAD8;
+constexpr uint64_t StaticMesh = 0x0AE8;
 constexpr uint64_t Eyes = 0x74C;
 constexpr uint64_t bAlwaysCreatePhysicsState = 0x498;
  
@@ -218,6 +218,7 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
 
